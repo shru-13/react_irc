@@ -11,6 +11,7 @@ const LeaveRequestContainer = styled.div`
   color: rgba(33, 22, 11, 0.847);
   border: 1px solid #ddd;
   border-radius: 10px;
+  justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 80vh; /* 80% of the viewport height */
   background: #603813;  /* fallback for old browsers */
@@ -25,6 +26,9 @@ const LeaveRequestContainer = styled.div`
 
 const LeaveForm = styled.div`
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+
 `;
 
 const LeaveInput = styled.input`
@@ -78,6 +82,7 @@ const Button = styled.div`
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
+  text-align: center;
   cursor: pointer;
   
 `;

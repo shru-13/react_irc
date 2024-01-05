@@ -1,0 +1,35 @@
+{
+    "profiles" : [
+        {
+            "id" : 1,
+            "username" : "aman@gmail.com",
+            "password" : "amanmathur",
+            "fullname" : "Aman Mathur",
+            "dob" : "12-12-2002",
+            "email": "aman@gmail.com",
+            "gender": "male",
+            "confirmPassword": "amanmathur"
+
+        },
+        {
+            "id" : 2,
+            "username" : "vinay@gmail.com",
+            "password" : "vinay123",
+            "fullname" : "Vinay",
+            "dob" : "12-12-2003",
+            "email": "vinay@gmail.com",
+            "gender": "male",
+            "confirmPassword": "vinay123"
+        },
+        {
+            "id" : 3,
+            "username" : "shuruthi@gmail.com",
+            "password" : "shuruthi",
+            "fullname" : "Shuruthi E",
+            "dob" : "13-10-2004",
+            "email": "shuruthi@gmail.com",
+            "gender": "female",
+            "confirmPassword": "shuruthi"
+        }
+    ]
+}

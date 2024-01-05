@@ -45,9 +45,9 @@ function Header() {
       <Navbar>
         <GifImage src={profile} alt="profile" />
         <NavbarLink to="/sidepanel">Menu</NavbarLink>
-        <NavbarLink to="/">Home</NavbarLink>
+        <NavbarLink to="/home">Home</NavbarLink>
         <NavbarLink to="/reg">Sign Up</NavbarLink>
-        <NavbarLink to="/login">Sign In</NavbarLink>
+        <NavbarLink to="/">Sign In</NavbarLink>
       </Navbar>
     </div>
   );

@@ -47,6 +47,16 @@ const Icon = styled.div`
   color: #fff;
   margin-bottom: 20px;
   cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s;
+  }
+  
+  &:hover {
+    color: rgba(132, 103, 75, 0.847);
+  }
 `;
 
 const CardContainer = styled.div`

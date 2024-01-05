@@ -16,15 +16,14 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route exact path="/" element={<HomePage/>}/>
-        <Route exact path="/login" element={<Login/>}/>
+        <Route exact path="/home" element={<HomePage/>}/>
+        <Route exact path="/" element={<Login/>}/>
         <Route exact path="/reg" element={<Reg/>}/>
         <Route exact path="/sidepanel" element={<SidePanel/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/leave" element={<Leave/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/t&c" element={<CenteredBox/>}/>
-
       </Routes>
       
       <Footer/>
